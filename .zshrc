@@ -10,21 +10,13 @@ alias vi=nvim
 
 alias yt=yt-dlp
 
-# LSD stuff
-alias ls='lsd'
-alias l='lsd -l'
-alias la='lsd -a'
-alias lla='lsd -la'
-alias lt='lsd --tree'
-
 # C/ C++ Stuff
 alias gcc=gcc-12
 alias g++=g++-12
 
 # cat Alternative
 alias bat='bat --theme gruvbox-dark'
-#alias cat='bat --theme gruvbox-dark'
-
+# alias cat='bat --theme gruvbox-dark'
 
 plugins=(
     git
@@ -139,22 +131,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
-        . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-
-source /Users/charan/.config/broot/launcher/bash/br
-export PATH="/opt/homebrew/opt/ghc@8.10/bin:$PATH"
