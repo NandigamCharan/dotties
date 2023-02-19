@@ -30,3 +30,12 @@ defaults write com.apple.dock autohide-time-modifier -float 0.4
 killall Dock
 
 # changes screenshot image format to jpeg
+
+
+
+# -------------------------------------------------------------------------------------------
+ln -s ~/dotties/yabai ~/.config/yabai
+ln -s ~/dotties/.zshrc ~/.zshrc 
+ln -s ~/dotties/.gitconfig ~/.gitconfig
+
+
